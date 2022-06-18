@@ -3,12 +3,11 @@
 
 body {
     font-family: roboto;
-    
-    
 }
 
 .header-box {
     background-color: #1F2937;
+    padding-left: 56px;
 }
 
 .header-top {
@@ -16,16 +15,12 @@ body {
     justify-content: space-between;
     align-items: center;
     
-    
-    
 }
 
 .logo {
     font-size: 24px;
     color: #F9FAF8;
-   padding: 0 56px;
-    
-
+   
 }
 
 ul {
@@ -33,7 +28,6 @@ ul {
     display: flex;
     padding: 0 40px;
 }
-
 
 a {
     text-decoration: none;
@@ -44,8 +38,7 @@ a {
 .hero-main {
     color: #F9FAF8;
     font-size: 48px;
-    font-weight: 900;
-    padding: 56px;
+    font-weight: bolder;
 }
 
 .header-links, .hero-sub {
@@ -57,5 +50,12 @@ a {
 
 button {
     background-color: #3882F6
+
 }
 
+.signup-header {
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    padding: 4px 8px;
+}
