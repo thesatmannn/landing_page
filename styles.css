@@ -55,6 +55,7 @@ a {
 
 .bitcoin {
     width: 600px;
+    height: 300px;
 }
 
 .header-links {
@@ -71,14 +72,15 @@ button {
 }
 
 .signup-header {
+    font-size: 18px;
     border-radius: 5px;
     border: none;
     font-weight: bold;
     padding: 6px 8px;
-    width: 100px;
+    width: 150px;
     height: 40px;
     margin-bottom: 48px;
-    margin-top: 8px;
+    margin-top: 16px;
 }
 /*random info section*/
 .title2 {
@@ -115,7 +117,7 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 font-size: 36px;
-font-weight: 100;
+font-weight: 300;
 font-style: italic;
 color: #1F2937;
 margin: 150px;
@@ -123,13 +125,15 @@ margin-bottom: 0;
 }
 
 .quote-container {
+    display: flex;
+    flex-direction: column;
     background-color: #E5E7EB;
-    
+    height: 600px;
+    justify-content: center;
 }
 
 .quote-sig {
     text-align: end;
-    display: flex;
     justify-content: flex-end;
     margin-top: 30px;
     margin-right: 300px;
@@ -137,4 +141,40 @@ margin-bottom: 0;
     margin-bottom: 150px;
     font-size: 26px;
     color: #1F2937;
+}
+/*last section with signup button & header*/
+.bottom-container {
+    display: flex;
+    background-color: #3882F6;
+    margin: 100px;
+    border-radius: 5px;
+    color: #F9FAF8;
+    align-content: center;
+    padding: 40px;
+    justify-content: space-around;
+    
+}
+
+.bottom-signup {
+    display: flex;
+    font-size: 18px;
+    padding: 6px 8px;
+    font-weight: bold;
+    color: #E5E7EB;
+    width: 150px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.call {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.call-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
 }
