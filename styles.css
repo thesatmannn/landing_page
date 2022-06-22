@@ -59,15 +59,9 @@ a {
     width: 400px;
 }
 
-img {
-    width: 600px; 
-    height: 300px; 
-    display: flex;
-    margin-right: 80px;
-    background-color: #3882F6;
-   
+.bitcoin {
+    width: 700px;
 }
-
 
 .header-links {
     justify-content: flex-end;
@@ -107,10 +101,18 @@ button {
 .container-info {
     display: flex;
     justify-content: center;
-   gap: ;
+    gap: 45px;
+    text-align: center;
+
     
 }
 
 .info {
- max-width: 200px;
+ max-width: 300px;
+ max-height: 200px;
+}
+
+.item {
+width: 300px;
+height: 200px;
 }
