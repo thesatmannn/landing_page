@@ -40,6 +40,7 @@ a {
     display: flex;
     justify-content: space-around;
     margin: 150px;
+    gap: 30px;
     }
 
 .hero-main {
@@ -68,24 +69,24 @@ a {
 }
 
 button {
-    background-color: #3882F6
+    background-color: #3882F6;
+    border: none;
+    color: #F9FAF8;
+    border-radius: 5px;
+    width: 125px;
+    font-size: 18px;
+    margin-top: 10px;
+
 }
 
-.signup-header {
-    font-size: 18px;
-    border-radius: 5px;
-    border: none;
-    font-weight: bold;
-    padding: 6px 8px;
-    width: 150px;
-    height: 40px;
-    margin-bottom: 48px;
-    margin-top: 16px;
+.top-button {
+    padding: 8px;
 }
+
 /*random info section*/
 .title2 {
     text-align: center;
-    margin: 60px;
+    margin: 50px;
     color: #1F2937;
     font-size: 36px;
     font-weight: bolder;
@@ -103,25 +104,25 @@ button {
 }
 
 .info, .item {
- max-width: 300px;
- max-height: 200px;
+    max-width: 300px;
+    max-height: 200px;
 }
 
 .item {
-border: 8px solid #3882F6;
+    border: 8px solid #3882F6;
+    border-radius: 5px;
 }
-
 /*quote section*/
 .quote {
-display: flex;
-flex-direction: column;
-justify-content: center;
-font-size: 36px;
-font-weight: 300;
-font-style: italic;
-color: #1F2937;
-margin: 150px;
-margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+    margin: 150px;
+    margin-bottom: 0;
 }
 
 .quote-container {
@@ -146,35 +147,28 @@ margin-bottom: 0;
 .bottom-container {
     display: flex;
     background-color: #3882F6;
-    margin: 100px;
-    border-radius: 5px;
+    margin: 100px 200px;
+    border-radius: 10px;
     color: #F9FAF8;
-    align-content: center;
     padding: 40px;
-    justify-content: space-around;
-    
+    justify-content: space-around;    
 }
 
-.bottom-signup {
-    display: flex;
-    font-size: 18px;
-    padding: 6px 8px;
-    font-weight: bold;
-    color: #E5E7EB;
-    width: 150px;
-    height: 40px;
-    border: 1px solid white;
-    border-radius: 5px;
+.bottom-button {
+    border: #F9FAF8 solid 2px;
+    margin-left: 300px;
 }
 
 .call {
     font-size: 24px;
     font-weight: bold;
 }
-
-.call-text {
+/*footer*/
+.footer {
     display: flex;
-    flex-direction: column;
+    align-items: center;
     justify-content: center;
-    
+    background-color: #1F2937;
+    color: #F9FAF8;
+    height: 100px;
 }
