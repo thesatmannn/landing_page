@@ -75,12 +75,12 @@ button {
     border-radius: 5px;
     width: 125px;
     font-size: 18px;
-    margin-top: 10px;
 
 }
 
 .top-button {
     padding: 8px;
+    margin-top: 10px;
 }
 
 /*random info section*/
@@ -147,22 +147,29 @@ button {
 .bottom-container {
     display: flex;
     background-color: #3882F6;
-    margin: 100px 200px;
     border-radius: 10px;
     color: #F9FAF8;
     padding: 40px;
-    justify-content: space-around;    
+    justify-content: center; 
+    align-items: center;
+    margin: 150px;
+    gap: 150px;   
 }
 
 .bottom-button {
     border: #F9FAF8 solid 2px;
-    margin-left: 300px;
+    padding: 4px;
 }
 
 .call {
     font-size: 24px;
     font-weight: bold;
 }
+
+.call-text {
+    margin-left: 150px;
+}
+
 /*footer*/
 .footer {
     display: flex;
